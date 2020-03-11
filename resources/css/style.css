@@ -5,7 +5,7 @@ background-color: oldlace;
 h1 {
     text-align:center;
     font-size: 40px;
-    font-family: interstate regular, sans-serif;
+    font-family: 'Heebo', sans-serif;
     color: #d56c3d
     
 }
@@ -22,5 +22,15 @@ body{
     color: grey;
 }
 
-  
+img{
+max-width: 100%;
+}
+
+  /*---------------------------------------- LAYOUTS */
+  .content {
+
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+  }
 
