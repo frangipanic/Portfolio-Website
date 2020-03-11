@@ -1,19 +1,25 @@
+/*--------------------------------GLOBAL DEFAULTS*/
 body {
 background-color: oldlace;
 }
 h1 {
+    text-align:center;
     font-size: 40px;
     font-family: interstate regular, sans-serif;
     color: #d56c3d
+    
 }
 h2{
-    font-size: 32px;
+    font-size: 30px;
+    font-style:italic;
     font-family: Arial, Helvetica, sans-serif;
-    color: grey
+    color: #415fcc
 }
-
+/*------------------------------------- BODY TEXTS*/
 body{
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
   
