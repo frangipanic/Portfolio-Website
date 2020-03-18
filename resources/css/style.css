@@ -37,6 +37,8 @@ body {
         color: grey;
         line-height: 1.6;
     box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
         
     }
     footer{
