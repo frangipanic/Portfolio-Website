@@ -9,6 +9,7 @@ h1{
     color: #d56c3d;
     
 }
+
 h2{
     text-align: center;
     font-size: 30px;
@@ -20,17 +21,17 @@ font-style: italic;
 h3{
 color: grey;
 font-size: 28px;
-font-family: Arial, Helvetica, sans-serif
+font-family: Arial, Helvetica, sans-serif;
 
 
 /*------------------------------------- BODY TEXTS*/
 body{
-    text-align:center
-    font-size: 18px
-    font-family: Arial, Helvetica, sans-serif
-    color: grey
-    line-height: 1.6
-box-sizing: border-box
+    text-align:center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 1.6;
+box-sizing: border-box;
 }
 
 
@@ -68,7 +69,8 @@ padding-bottom: 0.5;
 
 /*---------------------------- ATTEMPTS TO MOVE IMAGE UP??? */
   /*---------------------------------------- LAYOUTS */
-  .content {
+  
+  .content{
 
 max-width: 1000px;
 margin-left: auto;
