@@ -4,14 +4,15 @@ background-color: oldlace;
 }
 h1 {
     text-align:center;
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Heebo', sans-serif;
     color: #d56c3d;
     
 }
 h2{
+    text-align: center;
     font-size: 30px;
-    font-style:italic;
+font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     color: #415fcc;
 }
@@ -42,8 +43,8 @@ footer{
 
 header{
     background-color: #415fcc;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 header h1{
