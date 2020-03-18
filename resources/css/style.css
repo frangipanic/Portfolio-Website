@@ -1,81 +1,75 @@
 /*--------------------------------GLOBAL DEFAULTS*/
 body {
-background-color: oldlace;
-}
-h1{
-    text-align:center;
-    font-size: 60px;
-    font-family: 'Heebo', sans-serif;
-    color: #d56c3d;
-    
-}
-
-h2{
-    text-align: center;
-    font-size: 30px;
-font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #d56c3d;
-}
-
-h3{
-color: grey;
-font-size: 28px;
-font-family: Arial, Helvetica, sans-serif;
-
-
-/*------------------------------------- BODY TEXTS*/
-body{
-    text-align:center;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    line-height: 1.6;
-box-sizing: border-box;
-}
-
-
-footer{
-    background-color: #415fcc;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #d56c3d;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-weight: bold;
-}
-
-header{
-    background-color: #415fcc;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
-header h1{
-    margin-top: 0;
-}
-      .img-container {
+    background-color: oldlace;
+    }
+    h1 {
+        text-align:center;
+        font-size: 60px;
+        font-family: 'Heebo', sans-serif;
+        color: #d56c3d;
+        
+    }
+    h2{
         text-align: center;
-        display: block;
+        font-size: 30px;
+    font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #d56c3d;
+    }
+    
+    h3{
+    color: grey;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    /*------------------------------------- BODY TEXTS*/
+    body{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        line-height: 1.6;
+    box-sizing: border-box;
+        
+    }
+    footer{
+        background-color: #415fcc ;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #d56c3d;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bold;
+    }
+    
+    header{
+        background-color: #415fcc;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    
+    header h1{
+        margin-top: 0;
+    }
+    
+          .img-container {
+            text-align: center;
+            display: block;
+          }
+    img{
+        text-align: center;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+      /*---------------------------------------- LAYOUTS */
+      .content {
+    
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3%;
+    padding-right: 3%;
       }
-
-
-img{
-    text-align: center;
-max-width: 100%;
-padding-top: 0.5;
-padding-bottom: 0.5;
-}
-
-/*---------------------------- ATTEMPTS TO MOVE IMAGE UP??? */
-  /*---------------------------------------- LAYOUTS */
-  
-  .content{
-
-max-width: 1000px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 3%;
-padding-right: 3%;
-  }
-
