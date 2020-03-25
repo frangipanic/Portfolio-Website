@@ -66,7 +66,7 @@ body {
             display: block;
           }
     img{
-        text-align: center;
+    
     max-width: 100%;
     height: auto;
     padding-top: 0px;
@@ -110,9 +110,16 @@ body {
     padding-right: 3%;
       }
 
-      .img-only {
 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+      .column {
+        float: left;
+        width: 33.3%;
+        padding: 70px;
       }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+     
