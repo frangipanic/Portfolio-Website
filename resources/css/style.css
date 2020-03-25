@@ -109,3 +109,10 @@ body {
     padding-left: 3%;
     padding-right: 3%;
       }
+
+      .img-only {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+      }
