@@ -1,6 +1,29 @@
+
+
+
+/*------------------------VARIABLES*/
+
+:root {
+
+  --main-bg-color: oldlace; 
+
+
+}
+
+
+
+
+
+
 /*--------------------------------GLOBAL DEFAULTS*/
+
+html {
+scroll-behavior: smooth; /* silky smoooooooooth scrolling*/
+}
+
+
 body {
-    background-color: oldlace;
+    background-color: var(--main-bg-color);
     }
     h1 {
         text-align:center;
@@ -15,10 +38,10 @@ body {
         writing-mode: vertical-rl;
         text-orientation: upright;
         font-size: 24px;
-        left: 100px
+        left: 100px;
         font-family: Arial, Helvetica, sans-serif;
-        color: #415fcc;
-    }
+        color: #415fcc; 
+      }
     
     h3{
     color: grey;
@@ -46,9 +69,9 @@ body {
     }
     footer{
         background-color: #415fcc ;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        color: #d56c3d;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: oldlace;
         font-size: 28px;
         font-family: Arial, Helvetica, sans-serif; 
         font-weight: bold;
@@ -109,6 +132,28 @@ body {
     
     
       /*---------------------------------------- LAYOUTS */
+
+
+
+.to-about {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 24px;
+  left: 100px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #415fcc;
+
+}
+
+.to-about:hover {
+  color: #d56c3d;
+}
+
+
+
       .content {
     
     max-width: 1000px;
@@ -119,11 +164,7 @@ body {
       }
 
 
-      .column {
-        float: left;
-        width: 33.3%;
-        padding: 70px;
-      }
+      
 
       .row::after {
         content: "";
@@ -134,11 +175,37 @@ body {
       .img-logo {
         position:absolute;
 left:150px;
-top:10px;
+top:20px;
       }
 
       .img-logo-right {
         position:absolute;
 right:150px;
-top:10px;
+top:20px;
       }
+
+
+      .img-logo img,
+      .img-logo-right img {
+max-width: 150px;
+}
+
+@media screen and (min-width: 600px) {
+
+  .img-logo,
+  .img-logo-right {
+    top: 10px;
+  }
+
+  .img-logo img,
+  .img-logo-right img {
+    max-width: 100%;
+  }
+}
+  
+
+    @media screen and (min-width: 500px) { 
+    .news-component-columns {
+    grid-template-columns: 1fr 1fr; /* once over 500px, we see 2 cols*/ }
+    }
+  
