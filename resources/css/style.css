@@ -164,7 +164,10 @@ body {
       }
 
 
-      
+      .content a{
+text-decoration: none;
+
+      }
 
       .row::after {
         content: "";
@@ -209,3 +212,4 @@ max-width: 150px;
     grid-template-columns: 1fr 1fr; /* once over 500px, we see 2 cols*/ }
     }
   
+    
