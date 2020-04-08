@@ -54,6 +54,7 @@ body {
          font-size: 18px;
          font-family: Arial, Helvetica, sans-serif;
 
+         
 
      }
     /*------------------------------------- BODY TEXTS*/
@@ -127,6 +128,12 @@ body {
         padding-top: 40px;
     }
  
+    nav a {
+
+    text-decoration: none;
+    color: gray;
+    position: sticky;
+    }
 
 
     
@@ -152,6 +159,9 @@ body {
   color: #d56c3d;
 }
 
+.to-about a{
+text-decoration: none;
+}
 
 
       .content {
@@ -168,6 +178,7 @@ body {
 text-decoration: none;
 
       }
+
 
       .row::after {
         content: "";
