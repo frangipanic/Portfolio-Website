@@ -115,6 +115,7 @@ body {
         }
 
     nav ul {
+      
         list-style: none;
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
@@ -143,6 +144,7 @@ body {
 
 
 .to-about {
+  text-decoration: none;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   writing-mode: vertical-rl;
@@ -159,9 +161,7 @@ body {
   color: #d56c3d;
 }
 
-.to-about a{
-text-decoration: none;
-}
+
 
 
       .content {
