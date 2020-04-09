@@ -224,3 +224,29 @@ max-width: 150px;
     }
   
     
+    /*------------------- IMAGE GALLERY*/
+
+    main a:hover img{
+filter: opacity(50%);
+
+    }
+
+    .gallery-images {
+display:grid;
+grid-template-columns: 1fr 1fr;
+
+    }
+
+.gallery-images img {
+
+  max-width: 100%;
+}
+
+    @media screen and (min-width:800px) {
+
+.gallery-images {
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+    }
