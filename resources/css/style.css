@@ -44,7 +44,7 @@ body {
       }
     
     h3{
-    color: grey;
+    color: #d56c3d;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
      }
@@ -54,6 +54,7 @@ body {
          font-size: 18px;
          font-family: Arial, Helvetica, sans-serif;
 
+    
          
 
      }
@@ -161,8 +162,20 @@ body {
   color: #d56c3d;
 }
 
+.social{
+text-decoration: none;
+text-align: center;
+}
 
 
+.link-wrapper {
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+
+
+}
 
       .content {
     
@@ -202,6 +215,10 @@ top:20px;
       .img-logo img,
       .img-logo-right img {
 max-width: 150px;
+}
+
+.video {
+  max-width: 50%;
 }
 
 @media screen and (min-width: 600px) {
