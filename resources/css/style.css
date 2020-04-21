@@ -174,14 +174,17 @@ text-align: center;
 
 }
 
+.social a:hover{
+  color: #415fcc;
+}
+
 .link-wrapper {
 
   display:grid;
   grid-template-columns: 1fr 1fr;
 
-
-
 }
+
 
       .content {
     
